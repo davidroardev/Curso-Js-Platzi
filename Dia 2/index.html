@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="alert('Hiciste click')"> Hola de nuevo Curso de Js</h1> <!-- Poner js desde linea en elemento html-->
+    <h2>Hola con H2</h2>
+
+    <script>
+        var h2 = document.querySelector('h2'); // Selecciona el primer elemento h2 <!-- Como usar js con la etiqueta script-->
+        h2.onclick = function() { // Asigna una función al evento onclick               
+            alert('Hiciste click en el h2');
+        };
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
