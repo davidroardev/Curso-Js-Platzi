@@ -1,0 +1,12 @@
+let numero = 10;
+let numero2 =3;
+let Suma = numero + numero2; // Suma
+let sustraccion = numero--
+let Resta = numero - numero2; // Resta
+let división = numero / numero2; // División
+let exponente = numero **3; // Exponente
+let adicion = numero++; // Adición
+let multiplicacion = numero * numero2; // Multiplicación
+let modulo = numero % numero2; // Módulo
+let negacion = -numero; // Negación
+console.log(modulo);
